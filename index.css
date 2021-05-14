@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.bar {
+    display: flex;
+    height: 10%;
+    width: 100%;
+    background-color: gold;
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+}
+
+#button {
+    height: 50%;
+    width: 20%;
+    background-color: grey;
+    color: red;
+    text-shadow: 2px 2px 2px gold;
+}
+
+.sky {
+    height: 45%;
+    width: 100%;
+    background-color: skyblue;
+}
+
+.ground {
+    height: 45%;
+    width: 100%;
+    background-color: green;
+}
+
